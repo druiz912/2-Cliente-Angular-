@@ -1,0 +1,10 @@
+<hr>
+<div class="card cards" style="width: 18rem;"  *ngFor="let peliculas of peliculas let i=index" >
+    <a [routerLink]="['/detallesPeli']">
+    <img (click)="onClick('detallesPeli')" class="card-img-top" 
+      id="images" src={{peliculas.imagen}} (peliSeleccionada)="gestionPelis($event)">
+    </a>
+    <div class="card-body">
+      <p class="card-text">{{peliculas.titulo}}</p>
+    </div>
+  </div>

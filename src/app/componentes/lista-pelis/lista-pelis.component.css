@@ -1,0 +1,15 @@
+.cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    flex: content;
+}
+
+img {
+    height: 400px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

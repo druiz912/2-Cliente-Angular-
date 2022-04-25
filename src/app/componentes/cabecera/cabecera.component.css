@@ -1,0 +1,31 @@
+
+ul li {
+    padding-left: 75px;
+}
+
+.posizq {
+    position: relative;
+    margin: 1px 1px 1px 25px;
+}
+
+
+.busqueda {
+    margin-right: 20px;
+}
+
+#repelis {
+    font-family: fantasy;
+}
+
+
+#repelis:hover {
+    color: white;
+    background-color: #000000;
+
+    transition: 1.5s;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    letter-spacing: 10px;
+    padding: 10px;
+    
+}

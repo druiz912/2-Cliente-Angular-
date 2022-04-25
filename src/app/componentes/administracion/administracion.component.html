@@ -1,0 +1,18 @@
+<header>
+    <h1>ADMINISTRACION</h1>
+</header>
+
+<div class="contenedor1">
+    <table>
+        <th><a routerLink="/crearCategorias" routerLinkActive="active" ><button id="bCategorias">Crear categorias</button></a></th>
+        <th><a href="/crearTiposClientes"><button id="btipo_cliente">Crear tipo de clientes</button></a></th>
+        <th><a href="/crearClientes"><button id="bCliente">Crear clientes</button></a></th>
+        <th><a href="/crearPedidos"><button id="bPedido">Crear pedido</button></a></th>
+        <th><a href="/crearProductos"><button id="bProducto">Crear producto</button></a></th>
+        <th><a href="/crearVentas"><button id="bVentas">Crear ventas</button></a></th>
+    </table>
+</div>
+
+<!-- Administracion tiene un componente hijo; por ende debo poner 
+el router-outlet; ya que este es el componente ""padre"". -->
+<router-outlet></router-outlet>
